@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "mx.cenet.acelerometroBrujulaApp"
+    version     = "0.0.1"
+    versionCode = "10" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <preference name="phonegap-version" value="3.6.3" />
+    
+    <icon src="icon180x180.png" />
+
+    <name>AcelerometroBrujulaApp</name>
+
+    <description>
+        Aplicación que obtiene datos del movimiento del dispositivo por su sensor de aceleración (Acelerómetro) y su sensor de orientación (Brújula). 
+    </description>
+
+    <author href="http://cenet.mx" email="carlos@cenet.mx">
+        Carlos Celma
+    </author>
+    
+    <gap:plugin name="org.apache.cordova.device-motion" />
+
+</widget>
